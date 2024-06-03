@@ -1,0 +1,362 @@
+nav{
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(19,19,19,1) 26%, rgba(21,23,28,1) 50%, rgba(19,19,19,1) 74%, rgba(0,0,0,1) 100%);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+footer{
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(19,19,19,1) 26%, rgba(21,23,28,1) 50%, rgba(19,19,19,1) 74%, rgba(0,0,0,1) 100%);
+    background-color: rgb(15, 15, 15);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100%;
+    height: 542px;
+    font-size: 20px;
+    position: relative;
+    top: -9px;
+
+
+}
+.footercontent{
+    position: relative;
+    left: 50px;
+    
+}
+.footcategory{
+    font-size: 25px;
+}
+.footertable td{
+    width: 210px;
+    
+}
+::-webkit-scrollbar-track-piece{
+    width: 10px;
+}
+::-webkit-scrollbar {
+    width: 10px;
+    border-radius: 3px;
+}
+::-webkit-scrollbar-track {
+    background: rgb(92, 92, 92);
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #b6b6b6;
+    border-radius: 5px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #b4b4b4;
+  }
+.browse{
+z-index: 1;
+  }
+.carlist{
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(19,19,19,1) 26%, rgba(21,23,28,1) 50%, rgba(19,19,19,1) 74%, rgba(0,0,0,1) 100%);
+    height: 500px;
+    position: relative;
+    width: 100%;
+}
+
+.carlisttable{
+    background-color: rgb(0, 0, 0, 50%);
+    text-align: center;
+    position: relative;
+    height: 100px;
+}
+.carlistimage{
+    width: 400px;
+    height: 225px;
+    border-radius: 15px;
+    transition-property: transform;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+}
+.carlistimage:hover{
+    transform: scale(102%);
+}
+.carlistsection{
+    position: relative;left: -3px;top: -6px;
+}
+.carlistsection .carlistheader{
+    width: 100%;
+}
+.page1header{
+    position: relative;
+
+    background-image: url(wallpaperflare.com_wallpaper\ \(2\)\ \(1\).jpg);
+    width: 100%;
+    height: 500px;
+    box-shadow: 0 20px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.page2header{
+    position: relative;
+
+    background-image: url(wallpaperflare.com_wallpaper\ \(1\).jpg);
+    width: 100%;
+    height: 500px;
+    box-shadow: 0 20px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.page3header{
+    position: relative;
+
+    background-image: url(drift-cars-arj1vywdn3g3tbm2.jpg);
+    width: 100%;
+    height: 500px;
+    box-shadow: 0 20px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.page4header{
+    position: relative;
+
+    background-image: url(car-maserati-wallpaper-cars.jpg);
+    width: 100%;
+    height: 500px;
+    box-shadow: 0 20px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.page5header{
+    position: relative;
+
+    background-image: url(2023-genesis-g90-2\ \(1\).jpg);
+    width: 100%;
+    height: 500px;
+    box-shadow: 0 20px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.page6header{
+    position: relative;
+
+    background-image: url(carsmovie.jpg);
+    width: 100%;
+    height: 500px;
+    box-shadow: 0 20px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.page7header{
+    position: relative;
+
+    background-image: url(OPEL-Astra-5-Doors-2900_21\ \(1\).jpg);
+    width: 100%;
+    height: 500px;
+    box-shadow: 0 20px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.page8header{
+    position: relative;
+
+    background-image: url(oldrolls.jpg);
+    width: 100%;
+    height: 500px;
+    box-shadow: 0 20px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+li{
+    transition-property: transform;
+    transition-duration: 0.1s;
+    transition-timing-function: ease-in-out;
+    list-style-type: none;
+    border-radius: 5px;
+    text-align:justify;
+    padding: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+li:hover{
+    transform:scale(110%);text-decoration: underline;
+}
+.tablenav{margin: auto;}
+body{
+    background-color: rgb(27, 27, 27);
+    color:white;text-shadow: 2px 1px rgb(0, 0, 0);
+    background-attachment: fixed;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+.section1{font-size: 40px;text-align: center; color: aliceblue}
+a{color: white; text-decoration: none;}
+ul{color:rgb(255, 255, 255)}
+p,h2,h3,h4,ol{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+.img1{border:dashed 10px rgb(26, 27, 27); border-style:double;}
+.section4,.section_bumblebee{background-image: url(banner3.png);width: 1300px;text-align: center;margin:auto}
+.h2_1{font-size: 30px;}
+.p1,.p1_bumblebee{font-size: 25px;}
+.a1{text-decoration: underline; color: rgb(158, 81, 247);}
+.p2,.Top5acchead{font-size: 35px;text-align: center; background-color: rgb(0, 0, 0, 70%);font-family: Bebas Neue;}
+.section2{background-image: url(banner3.png);width: 900px}
+.skibidi{text-shadow:none; font-size: 21px;text-align: center;}
+
+.section2{
+    transition-property: transform;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+    border-radius: 15px;
+    width: 970px;
+}
+
+.skibidi1{
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+
+.img2{
+    width: 500px;
+    transition-property: transform;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+    border-radius: 25px;
+    box-shadow: rgb(0, 0, 0, 50%) 5px 5px 5px;
+}
+
+
+.img2_bumblebee1 {
+    width: 300px; /* Specify the width */
+    height: 200px; /* Specify the height */
+    background-image:url(https://s1.cdn.autoevolution.com/images/news/bumblebee-1973-chevy-camaro-isn-t-really-an-original-z-28-yet-no-one-will-mind-191510_1.jpg); /* Initial background image */
+    background-size: cover; /* Cover the entire area of the element */
+    transition: background-image 0.5s ease-in-out; /* Smooth transition */
+    border-radius: 25px;
+
+}
+
+.img2_bumblebee1:hover {
+    background-image: url(https://i.pinimg.com/originals/fc/ed/1c/fced1cd43381ca0ba732378275b0a090.gif);
+}
+
+.img2_bumblebee2 {
+    width: 300px; /* Specify the width */
+    height: 200px; /* Specify the height */
+    background-image:url(https://bumblebeecarhire.co.uk/carousel/Home/home.jpg?version=2417); /* Initial background image */
+    background-size: cover; /* Cover the entire area of the element */
+    transition: background-image 0.5s ease-in-out; /* Smooth transition */
+    border-radius: 25px;
+
+}
+
+.img2_bumblebee2:hover {
+    background-image: url(https://i.pinimg.com/originals/d6/94/1f/d6941fdb1acd476469ffd919df783d3b.gif);
+}
+
+.h2_1{
+    transition-property: transform;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+    list-style-type: none;
+}
+.p1{
+    transition-property: transform;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+    list-style-type: none;
+}
+.section4{
+    box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition-property: transform;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+    list-style-type: none;
+    border-radius: 25px;
+}
+iframe{
+    display: none;box-shadow: rgb(0, 0, 0, 50%) 3px 3px 3px;
+        transition-property: transform;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+    list-style-type: none;
+    border-radius: 25px;
+
+
+}
+
+.p2{
+    position: relative;
+    top: 100px;
+    font-size: 50px;
+    margin: auto;
+    width: 1000px;
+    border-radius: 25px;
+}    
+
+.section_bumblebee{
+    border-radius: 25px;
+}
+
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.dropbtn {
+    
+    width: 200px;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    transition-property: transform;
+    transition-duration: 0.15s;
+    transition-timing-function: ease-in-out;
+    list-style-type: none;
+  }
+
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    z-index: -1;
+    display: none;
+    position: absolute;
+    background-color: rgb(0, 0, 0, 50%);
+    width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    text-align: center;
+    transition-property: transform;
+    transition-duration: 1.5s;
+    transition-timing-function: ease-in-out;
+    list-style-type: none;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+  
+  .dropdown-content a {
+    color: rgb(255, 255, 255);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border-radius: 15px ;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: rgb(221, 221, 221, 10%);}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
+    transform: translateY(-80px);
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+
+  .dropdown:hover .dropdown-content {
+    transform: translateY(-80px);
+  }
+
+  body, html
+  {
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+  }
+  
+.socials{width: 100px;}
+
+:root{
+    --scroll: 0;
+}
+
+.carlisttable tr:hover{
+    background-color: rgb(6, 6, 6);
+}
